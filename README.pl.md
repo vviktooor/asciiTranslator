@@ -2,7 +2,7 @@
   <img src=".github/readme/banner.pl.svg" width="100%" alt="WR · asciiTranslator: Konwerter tekstu i ASCII z GUI">
 </p>
 
-<p><a href="README.md">English</a> · <b>Polski</b></p>
+<p><a href="README.md"><img alt="English" src="https://img.shields.io/badge/English-526077?style=flat-square"></a>&nbsp;<img alt="Polski" src="https://img.shields.io/badge/Polski-20C9B0?style=flat-square"></p>
 
 <p>
   <img alt="status: aktywny" src="https://img.shields.io/badge/status-aktywny-20C9B0?style=flat-square&labelColor=121B2B">
@@ -13,7 +13,6 @@
 **Aplikacja desktopowa, która zamienia tekst na kody ASCII i z powrotem.**
 Dwie zakładki, „TEXT TO ASCII” i „ASCII TO TEXT”: wpisz dane, kliknij konwersję, wynik pojawi się poniżej.
 
-[Zgłoś problem](../../issues)
 
 <p align="center"><img alt="Podgląd: Okno ASCII Translator" src="screenshots/ss_01.png" width="85%"></p>
 
@@ -54,9 +53,6 @@ Ten README jest po polsku i po [angielsku](README.md) (wersja domyślna). Interf
 
 ## Licencja
 
-Brak pliku licencji: wszelkie prawa zastrzeżone. Zapytaj przed ponownym użyciem kodu.
-Autor: WR
+Brak pliku licencji: wszelkie prawa zastrzeżone. Zapytaj przed ponownym użyciem kodu. Autor: WR.
 
----
-
-<p align="center"><sub><b>WR</b> · <a href="https://github.com/vviktooor">vviktooor</a></sub></p>
+Znalazłeś błąd albo masz pomysł? [Zgłoś go w Issues](../../issues).
