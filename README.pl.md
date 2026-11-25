@@ -14,12 +14,7 @@
 **Aplikacja desktopowa, która zamienia tekst na kody ASCII i z powrotem.**
 Dwie zakładki, „Tekst na ASCII” i „ASCII na tekst”: wpisz dane, kliknij Konwertuj, odczytaj wynik. Błędne kody są zgłaszane zamiast wywracać program. Interfejs po angielsku lub po polsku, przełączany w oknie.
 
-<<<<<<< Updated upstream
-
-<p align="center"><img alt="Podgląd: Okno ASCII Translator" src="screenshots/ss_01.png" width="85%"></p>
-=======
 <p align="center"><img alt="Podgląd: Zakładka Tekst na ASCII z przekonwertowanym powitaniem" src="docs/screenshots/text-to-ascii.pl.png" width="85%"></p>
->>>>>>> Stashed changes
 
 ## Funkcje
 

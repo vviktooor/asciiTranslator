@@ -14,12 +14,7 @@
 **Desktop app that converts text to ASCII codes and back.**
 Two tabs, “Text to ASCII” and “ASCII to text”: type the input, click Convert, read the result. Invalid codes are reported, not crashed on. Interface in English or Polish, switchable in the window.
 
-<<<<<<< Updated upstream
-
-<p align="center"><img alt="Preview: ASCII Translator window" src="screenshots/ss_01.png" width="85%"></p>
-=======
 <p align="center"><img alt="Preview: Text to ASCII tab with a converted greeting" src="docs/screenshots/text-to-ascii.en.png" width="85%"></p>
->>>>>>> Stashed changes
 
 ## Features
 
