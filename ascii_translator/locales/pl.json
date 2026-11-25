@@ -1,0 +1,13 @@
+{
+  "title": "Tłumacz ASCII",
+  "tab_to_ascii": "Tekst na ASCII",
+  "tab_to_text": "ASCII na tekst",
+  "input": "Dane wejściowe",
+  "output": "Wynik",
+  "convert": "Konwertuj",
+  "clear": "Wyczyść",
+  "hint_to_ascii": "Wpisz dowolny tekst, na przykład: Cześć",
+  "hint_to_text": "Wpisz kody oddzielone spacjami, na przykład: 72 101 108 108 111",
+  "error_code": "„{token}” nie jest poprawnym kodem znaku.",
+  "language": "Język"
+}
