@@ -1,9 +1,15 @@
 """Tkinter window in WR colours with an English/Polish switch. Author: WR"""
 
+from pathlib import Path
+from tkinter import PhotoImage
+
 import customtkinter as ctk
+from PIL import Image
 
 from . import convert, i18n
 from .theme import ERROR, INK, INK_2, LINE, MONO, MUTED, PAPER, SANS, SIGNAL, SIGNAL_HOVER, SLATE
+
+ASSETS = Path(__file__).parent / "assets"
 
 
 class App(ctk.CTk):
@@ -14,6 +20,10 @@ class App(ctk.CTk):
         self.minsize(560, 460)
         self.lang = lang
         self.text = i18n.load(lang)
+        self._icon = PhotoImage(file=ASSETS / "wr-icon.png")
+        self.iconphoto(True, self._icon)
+        logo = Image.open(ASSETS / "wr-logo.png")
+        self._logo = ctk.CTkImage(logo, size=(logo.width // 2, logo.height // 2))
         self._build()
 
     def _build(self):
@@ -24,8 +34,9 @@ class App(ctk.CTk):
 
         head = ctk.CTkFrame(self, fg_color=INK, corner_radius=0)
         head.pack(fill="x", padx=24, pady=(20, 8))
-        ctk.CTkLabel(head, text="WR", text_color=SIGNAL, font=(SANS, 22, "bold")).pack(side="left")
-        ctk.CTkLabel(head, text=f"  {t['title']}", text_color=PAPER, font=(SANS, 18, "bold")).pack(side="left")
+        ctk.CTkLabel(head, image=self._logo, text="").pack(side="left")
+        ctk.CTkFrame(head, width=2, height=28, fg_color=LINE, corner_radius=0).pack(side="left", padx=16)
+        ctk.CTkLabel(head, text=t["title"], text_color=PAPER, font=(SANS, 18, "bold")).pack(side="left")
         switch = ctk.CTkSegmentedButton(
             head,
             values=["EN", "PL"],
