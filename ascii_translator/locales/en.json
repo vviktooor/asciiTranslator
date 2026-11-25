@@ -1,0 +1,13 @@
+{
+  "title": "ASCII Translator",
+  "tab_to_ascii": "Text to ASCII",
+  "tab_to_text": "ASCII to text",
+  "input": "Input",
+  "output": "Result",
+  "convert": "Convert",
+  "clear": "Clear",
+  "hint_to_ascii": "Type any text, for example: Hello",
+  "hint_to_text": "Type codes separated by spaces, for example: 72 101 108 108 111",
+  "error_code": "\"{token}\" is not a valid character code.",
+  "language": "Language"
+}

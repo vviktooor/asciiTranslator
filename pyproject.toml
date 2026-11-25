@@ -1,0 +1,13 @@
+[project]
+name = "ascii-translator"
+version = "2.0.0"
+description = "Desktop app that converts text to ASCII codes and back (EN/PL). Author: WR"
+requires-python = ">=3.10"
+dependencies = ["customtkinter==5.2.2"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
